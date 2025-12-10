@@ -36,7 +36,18 @@ The following pre-trained CNN architectures were tested:
 - **VGG19**
 - **MobileNetV2**
 - **ResNet50**
+---
 
+* **VGG16 and VGG19**
+    VGG models are characterized by their extreme depth (16 and 19 layers) and use of small, uniform **$3 \times 3$ convolutional filters** stacked throughout the network. They established that depth is a key component for good performance, extracting features through a long sequence of basic operations. 
+
+* **ResNet50 (Residual Networks)**
+    ResNet introduced the concept of **"skip connections"** or **residual blocks** which allow the network to bypass layers and reuse activations from earlier layers. This design solves the vanishing gradient problem, enabling the training of much deeper networks (50 layers in this version) that perform well. 
+
+* **MobileNetV2 (Efficient, low-latency architecture)**
+    MobileNetV2 is designed for mobile and embedded vision applications where efficiency is critical. It uses **depthwise separable convolutions** and an inverted residual structure to drastically reduce the number of parameters and computational cost while maintaining high accuracy.
+---
+  
 Each model was evaluated under different configurations:
 - Optimizers: **Adam, SGD**
 - Activations: **ReLU, GELU**
