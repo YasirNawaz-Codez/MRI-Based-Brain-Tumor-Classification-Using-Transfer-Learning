@@ -132,7 +132,7 @@ python mri_based_brain_tumor_classification.py
 **Kaggle — Brain Tumor MRI Dataset**  
 https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
-### 📌 Architecture & Deep Learning Resources
+### 📌 Architecture & Deep Learning Resources (Geeksforgeeks)
 - VGG Net Architecture Explained  
 - MobileNet in Image Recognition  
 - Residual Networks (ResNet)
